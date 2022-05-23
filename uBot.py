@@ -2,14 +2,14 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-input= input("paste your youtube video link: ")
+input1= input("paste your youtube video link: ")
 
 
 driver= webdriver.Firefox()
 driver.get('https://www.y2mate.com/en61')
 
 btn1= driver.find_element_by_name('query')
-btn1.send_keys(input)
+btn1.send_keys(input1)
 time.sleep(1)
 
 bclick=driver.find_element_by_xpath('/html/body/div[1]/div[1]/div/div/div[1]/div/div/div/div[2]/form/button/span[1]')
