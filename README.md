@@ -1,2 +1,2 @@
 # python
-all python programs that i am learning
+all python programs that I am learning
